@@ -7,15 +7,23 @@
 // TO RUN TESTS FROM THE COMMAND LINE WITH NODE TYPE: "node path/to/file.js" NO QUOTATION MARKS
 // "node lessons/simple.js"
 
-const sum = (a, b) => a - b;
-const subtract = (a, b) => a - b;
+const { sum, subtract } = require('./math')
 
-const result = sum(3, 7);
-const expected = 10;
+let result, expected
 
+console.log("Adjust math.js to pass the test.")
+result = sum(3, 7)
+expected = 10
 if (result !== expected) {
-  throw new Error(`${result} is not equal to ${expected}`);
+  throw new Error(`${result} is not equal to ${expected}`)
 }
+
+result = subtract(7, 3)
+expected = 4
+if (result !== expected) {
+  throw new Error(`${result} is not equal to ${expected}`)
+}
+
 
 let result2 = sum(3, 7);
 let expected2 = 10;
