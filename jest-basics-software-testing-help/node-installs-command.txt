@@ -3,7 +3,7 @@
 
 
  // INSTALL JEST
- npm install --save-dev jest
+ npm install --save-dev jest babel-jest
 
 /
 / JEST HTML REPORTER
