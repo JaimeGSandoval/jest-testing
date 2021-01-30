@@ -1,0 +1,16 @@
+{
+  "name": "jest-debugging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --config=jestconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}

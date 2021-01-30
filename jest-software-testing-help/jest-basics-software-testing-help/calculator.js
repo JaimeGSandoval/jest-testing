@@ -13,4 +13,8 @@ const mathOperations = {
   }
 }
 
-module.exports = mathOperations;
+function throwException() {
+  throw new Error('Exception!!');
+}
+
+module.exports = { mathOperations, throwException };
